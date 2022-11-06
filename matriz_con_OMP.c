@@ -87,8 +87,8 @@ int main(int argc, char** argv){
     srand(time(NULL));
 
     int **matr;
-    int filas = 3;
-    int columnas = 5;
+    int filas = 1000;
+    int columnas = 1000;
 
     matr = multiplicacion(filas, columnas);
     imprimirMatriz(matr, filas, filas);
